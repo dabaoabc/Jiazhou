@@ -1,0 +1,237 @@
+.wrap {
+  width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+}
+.banner {
+  background-color: #2150ae;
+  height: 630px;
+}
+.footer {
+  background-color: #323333;
+  height: 100px;
+}
+.header {
+  overflow: hidden;
+  height: 88px;
+}
+.header .logo {
+  float: left;
+  margin: 30px 0 0 20px;
+}
+.header .phone {
+  float: right;
+  margin-right: 30px;
+}
+.header .phone span {
+  font-size: 18px;
+  color: #d7770e;
+  line-height: 88px;
+}
+.header .phone .phoneNum {
+  font-size: 24px;
+  color: #eb7401;
+}
+.navigation {
+  background-color: #39adff;
+  height: 37px;
+  position: relative;
+  z-index: 2;
+}
+.navigation .navigator {
+  margin: 0 auto;
+}
+.navigation .navigator > ul {
+  overflow: hidden;
+}
+.navigation .navigator > ul > li {
+  float: left;
+  padding: 10px 20px;
+  z-index: 10;
+  text-align: center;
+}
+.navigation .navigator > ul > li a {
+  color: #fff;
+  cursor: pointer;
+}
+.navigation .navigator > ul > li ul {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 37px;
+  margin-left: -20px;
+  width: inherit;
+  background-color: #259ef3;
+}
+.navigation .navigator > ul > li ul li {
+  padding: 10px 20px;
+  text-align: center;
+}
+.navigation .navigator > ul > li:hover {
+  color: #279cee;
+}
+.navigation .navigator > ul > li:hover ul {
+  display: block;
+}
+.slides {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+.slideInner {
+  height: 700px;
+  position: relative;
+  left: 0;
+  margin-left: 0;
+}
+.slideInner a {
+  display: block;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.slideInner a div.img1 {
+  width: 1070px;
+  position: absolute;
+  left: 50%;
+  margin-left: -535px;
+}
+.slideInner a div.img2 {
+  width: 1070px;
+  position: absolute;
+  top: 557px;
+  left: 50%;
+  margin-left: -535px;
+}
+.slideInner .slide3 .img2 {
+  top: 200px;
+}
+.slideInner .slide3 .img3 {
+  width: 181px;
+  height: 286px;
+  position: absolute;
+  left: 50%;
+  margin-left: 330px;
+  top: 330px;
+}
+.nav {
+  width: 1200px;
+  position: relative;
+  left: 50%;
+  margin-left: -600px;
+  display: none;
+}
+.nav a {
+  display: block;
+  width: 41px;
+  height: 119px;
+  opacity: .2;
+  z-index: 9;
+}
+.nav a.prev {
+  position: absolute;
+  left: 0;
+  top: -350px;
+  margin-top: -58px;
+  background: url(../img/ban_pre.png) no-repeat;
+}
+.nav a.next {
+  position: absolute;
+  right: 0;
+  top: -350px;
+  margin-top: -58px;
+  background: url(../img/ban_next.png) no-repeat;
+}
+.navListBox {
+  position: absolute;
+  left: 50%;
+  top: 675px;
+  z-index: 99;
+}
+.navListBox li {
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-left: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.navListBox li:first-child {
+  margin-left: 0;
+}
+.navListBox li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 5px #666 inset;
+}
+.navListBox li a.active {
+  background-color: #55ddff;
+}
+.content {
+  height: 500px;
+}
+.content .project {
+  margin: 30px 0 0 30px;
+  float: left;
+  overflow: hidden;
+  background-color: #f6f6f6;
+}
+.content .project .img {
+  float: left;
+}
+.content .project .information {
+  float: left;
+}
+.content .project .information h1 {
+  background-color: #39adff;
+  width: 220px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  padding-left: 10px;
+  font-size: 18px !important;
+}
+.content .project .information h1 a {
+  margin-right: 10px;
+  float: right;
+  color: #fff;
+  font-size: 14px;
+}
+.content .project .information .detail-information ul {
+  margin: 20px 0 0 10px;
+}
+.content .project .information .detail-information ul li {
+  line-height: 25px;
+  cursor: pointer;
+}
+.content .project .information .detail-information ul li a {
+  color: #000 !important;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #323333;
+  height: 101px;
+  text-align: center;
+  padding-top: 20px;
+}
+.footer div {
+  display: inline-block;
+}
+.footer .erwei {
+  vertical-align: bottom;
+}
+.footer .contact {
+  text-align: left;
+}
+.footer .contact span {
+  color: #fff;
+  margin-left: 10px;
+}
