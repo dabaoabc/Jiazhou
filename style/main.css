@@ -204,12 +204,14 @@
   color: #fff;
   font-size: 14px;
 }
+.content .project .information .detail-information {
+  width: 230px;
+}
 .content .project .information .detail-information ul {
   margin: 20px 0 0 10px;
 }
 .content .project .information .detail-information ul li {
   line-height: 25px;
-  cursor: pointer;
 }
 .content .project .information .detail-information ul li a {
   color: #000 !important;
@@ -226,7 +228,7 @@
   display: inline-block;
 }
 .footer .erwei {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 .footer .contact {
   text-align: left;
